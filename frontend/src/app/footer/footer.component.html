@@ -22,7 +22,7 @@
             <a class="nav-link" href="{{ djangoRoot }}/offers/create">Dodaj nową ofertę</a>
             <a class="nav-link" href="{{ djangoRoot }}/organizations">Lista organizacji i instytucji</a>
             <a class="nav-link" href="{{ djangoRoot }}/pages/faq-organizations">FAQ dla organizacji i instytucji</a>
-            <a class="nav-link" href="{{ djangoRoot }}/office">Przyjdź na dyżur</a>
+            <a [routerLink]="['/office']" class="nav-link">Przyjdź na dyżur</a>
           </li>
         </ul>
       </div>
